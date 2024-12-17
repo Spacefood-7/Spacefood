@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Food - Cibo da Asporto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Space Food</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Ordina</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Benvenuti su Space Food</h2>
+            <p>Ordina il tuo cibo da asporto personalizzato per ogni occasione!</p>
+            <div class="donut-animation">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Donut_Pink_Sprinkle.png/240px-Donut_Pink_Sprinkle.png" alt="Donut" id="donut">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/AnimatedRocket.gif" alt="Rocket" id="rocket">
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Il Nostro Menu</h2>
+            <div class="menu-item">
+                <h3>Menu Natale</h3>
+                <p>Piatti tradizionali con un tocco speciale. Personalizza ora!</p>
+            </div>
+            <div class="menu-item">
+                <h3>Menu Capodanno</h3>
+                <p>Festeggia il nuovo anno con stile e gusto.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Menu Inizio Anno</h3>
+                <p>Ricomincia l'anno con pasti equilibrati e gustosi.</p>
+            </div>
+        </section>
+        <section id="order">
+            <h2>Ordina Ora</h2>
+            <p>Personalizza e ordina i tuoi piatti preferiti con un click.</p>
+        </section>
+        <section id="contact">
+            <h2>Contattaci</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Space Food. Tutti i diritti riservati.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

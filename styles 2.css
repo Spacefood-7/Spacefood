@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo h1 {
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+.menu-item {
+    border: 2px solid gold;
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: gold;
+}
+.donut-animation {
+    position: relative;
+    height: 200px;
+}
+#donut, #rocket {
+    width: 100px;
+}
+#rocket {
+    position: absolute;
+    left: 0;
+    animation: fly-through 5s infinite ease-in-out;
+}
+@keyframes fly-through {
+    0% { left: 0; }
+    50% { left: 50%; }
+    100% { left: 100%; }
+}
